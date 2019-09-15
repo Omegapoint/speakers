@@ -1,0 +1,5 @@
+Speakers: Daniel Deogun & Dan Bergh Johnsson
+
+Secure by Design – Another Road to Security
+
+The ambition of Secure by Design is to make security something that comes natural to developers as part of their everyday development efforts. Usually security is promoted by “think of security first” or “keep security top of mind”. In other words, to think more about security than the features they work on. But, as security researcher John Wilander noted, security will always come second to business value. Therefore, those methods will fail - and already have. Instead Secure by Design use something developers naturally embrace - good design - to leverage it as a way of promoting security. Selected “good designs” can make vulnerabilities in code, architecture, and process less likely. We have collected design ideas from different fields that were originally not conceived for security, such as Domain Driven Design or Cloud Native Architecture - but can be used to have beneficial security effects. We present the key ideas as well as some examples of such designs.

@@ -1,0 +1,5 @@
+Speakers: Daniel Deogun & Dan Bergh Johnsson
+
+Benefits of Cloud Thinking
+
+Mentioning cloud and security in the same sentence almost sounds like an oxymoron. But the truth is, many design patterns used in the cloud are in fact improving security. In this talk, we will address topics such as Advanced Persistent Threat, 3 R's of Enterprise Security, and show how common design patters used in the cloud – not because they are nice but rather because they are needed – also could bring security benefits in a non-cloud environment.

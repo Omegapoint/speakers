@@ -5,21 +5,29 @@
 ###
 
 SPEAKER=$1
+ABSTRACT=$2
 PICTURE=speakers/$SPEAKER/picture/primary/$SPEAKER.jpg
 BIOGRAPHY=speakers/$SPEAKER/biography/primary/$SPEAKER.txt
-ABSTRACT=abstracts/$2
 
-# Verify that we speaker and talk information can be compiled
-test -f $PICTURE || echo "unable to locate picture for $SPEAKER"
-test -f $BIOGRAPHY || echo "unable to locate biography for $SPEAKER"
-test -f $ABSTRACT || echo "unable to locate abstract with name $2"
+# Verify that speaker and talk information can be fetched
+test -f $PICTURE || { echo "unable to locate picture for $SPEAKER"; exit 1; }
+test -f $BIOGRAPHY || { echo "unable to locate biography for $SPEAKER"; exit 1; }
 
-# Compile information
+if [ "$ABSTRACT" ]; then
+  test -f $ABSTRACT || { echo "unable to locate abstract: $ABSTRACT"; exit 1; }
+fi
 
-echo ---------
+# Print speaker and talk information
+
+echo '\n---------\n'
 echo Speaker: ${SPEAKER//_/ }'\n'
+
 cat $BIOGRAPHY
-echo '\n'
-echo Picture: https://github.com/Omegapoint/speakers/blob/master/speakers/$SPEAKER/picture/primary/$SPEAKER.jpg
-cat $ABSTRACT | sed '1d' # Need to skip the first line because it contains a listing of the speaker(s)
-echo ---------
+
+echo '\n'Picture: https://github.com/Omegapoint/speakers/blob/master/speakers/$SPEAKER/picture/primary/$SPEAKER.jpg'\n'
+
+if [ "$ABSTRACT" ]; then
+  cat $ABSTRACT | sed '1d' # Need to skip the first line because it contains a listing of the speaker(s)
+fi
+
+echo '\n---------\n'

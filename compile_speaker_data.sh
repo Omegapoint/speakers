@@ -6,7 +6,7 @@
 
 if [ "$#" -eq 0  ]; then
   echo "Error"
-  echo "usage: ./compile_speaker_data.sh <speaker_name_with_underscore_as_separtor> [abstracts/<filename>]"
+  echo "usage: ./compile_speaker_data.sh <speaker_name_with_underscore_as_separator> [abstracts/<filename>]"
   exit 1
 fi
 

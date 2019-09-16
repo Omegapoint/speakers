@@ -4,6 +4,12 @@
 # Compiles speaker and talk information
 ###
 
+if [ "$#" -eq 0  ]; then
+  echo "Error"
+  echo "usage: ./compile_speaker_data.sh <speaker_name_with_underscore_as_separtor> [abstracts/<filename>]"
+  exit 1
+fi
+
 SPEAKER=$1
 ABSTRACT=$2
 PICTURE=speakers/$SPEAKER/picture/primary/$SPEAKER.jpg

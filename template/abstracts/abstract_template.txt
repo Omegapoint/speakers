@@ -1,0 +1,5 @@
+Speaker(s): <Add speaker names here>
+
+<Add title of your talk here>
+
+<Add your abstract without linebreaks here>

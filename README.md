@@ -5,9 +5,11 @@ The main objective of this repository is to collect information about speakers a
 The root directory contains
 
 - abstracts
-    - The abstracts found in this directory are talks held by speakers at Omegapoint.  
+    - Abstracts found in this directory are talks held by speakers at Omegapoint.  
 - speakers
-    - This directory contains pictures and biographies about each speaker at Omegapoint. 
+    - Pictures and biographies about each speaker at Omegapoint.
+- template
+    - Templates to be used when adding a speaker for the first time to the repository.
     
 ## Usage
 To compile speaker and talk information, run

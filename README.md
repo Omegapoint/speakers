@@ -8,7 +8,7 @@ The root directory contains
     - Abstracts found in this directory are talks held by speakers at Omegapoint.  
 - speakers
     - Pictures and biographies about each speaker at Omegapoint.
-- template
+- templates
     - Templates to be used when adding a speaker for the first time to the repository.
     
 ## Usage

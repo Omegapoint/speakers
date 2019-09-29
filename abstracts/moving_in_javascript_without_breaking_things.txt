@@ -1,0 +1,7 @@
+Speakers: Pia Fåk Sunnanbo
+
+Moving in JavaScript - Without Breaking Things
+
+Let’s assume: You’re asked to do a small change in one of your new team’s microservices. The problem: Your teammates are all off sick. You know that this service is business critical but you don’t know exactly what it does. There are no tests. And it’s written in JavaScript! How do you introduce your change without breaking things?
+
+In this session, you will learn a simple method, some tools and a few tips and trix for handling this kind of situation.

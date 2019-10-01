@@ -1,0 +1,9 @@
+Machine learning för människor
+
+Känns "machine learning" eller maskininlärning som den nya tidens magi? Plötsligt kan maskiner fatta beslut utan att människor har lärt dem reglerna – dessa har maskinerna ”magiskt” listat ut, allt genom mystiska algoritmers försorg.
+
+I den här föreläsningen avdramatiserar Dan maskininlärning genom att gå igenom några typiska fall med enklast möjliga algoritmer – utan nervösa nät eller annan magi.
+
+Vad är skillnaden med ”vanlig programmering” och hur lär sig maskinen? Vad kan maskinen egentligen lära sig? Vad kan maskinen inte lära sig? Och vad är människans roll i det hela?
+
+Inga förkunskaper krävs men allmänt tekniskt intresse hjälper.

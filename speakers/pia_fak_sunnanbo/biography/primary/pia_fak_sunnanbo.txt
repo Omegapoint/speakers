@@ -1,3 +1,0 @@
-Since many years a programmer with experience from a wide range of languages, environments and domains. Loves talking about software almost as much as she enjoys working with code.
-
-Fascinated by the amount of ideas that seem brilliant but turn out to be terrible once implemented. Continuously looking for tools and techniques that make features reach end users safer and faster, so that we can know earlier if they're useful or not.

@@ -1,7 +1,0 @@
-Speakers: Pia Fåk Sunnanbo
-
-Every Other Week Reteaming - A Case Study
-
-We had strong, independent component teams. Most of us were happy, many felt productive. However, ever larger cracks appeared in our service along the platform boundaries. Our culture and our processess effectively stopped every cross-team effort. Enter: an agile coach with a crazy idea. 
-
-This is the true story of how a group of 30 developers started moving the knowledge to the work. This is the story of how we struggled with doubt, anxiety, group psychology and strong opinions. This is also the story of how we found common goals, new friends and new courage.
